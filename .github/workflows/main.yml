@@ -3,9 +3,9 @@ name: Unit Tests
 on:
   push:
     branches:
-      - master
+      - cereed4/working&such
   pull_request:
-    branches: [master]
+    branches: [cereed4/working&such]
 
 jobs:
   Jest:
