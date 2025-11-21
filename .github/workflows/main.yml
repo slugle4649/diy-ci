@@ -15,4 +15,7 @@ jobs:
       - name: Run Tests
         run: |
           npm install 
-          npm test
+          npm run build
+          npm run test
+          npm run check
+          
